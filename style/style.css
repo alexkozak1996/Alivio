@@ -58,6 +58,7 @@ body {
 .header__link {
   text-decoration: none;
   text-align:left;
+  color: #292929;
   font-size:20px;
   font-weight:500;
   line-height:auto;
@@ -213,17 +214,59 @@ body {
   height: 492px;
   border-radius: 12px;
 }
-
 /* Конец секции works */
 
 /* Секция about */
 .about {
+  padding-top: 229px;
+  padding-bottom: 177px;
   background-color: #245852;
 }
 
 .about__container {
   width: 1506px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__section-left {
+  width: 580px;
+}
+
+.about__section-right {
+  width: 896px;
+}
+
+.about__title {
+  margin-top: 81px;
+  color:#ffffff;
+  font-size:50px;
+  font-family:Georgia;
+  font-weight:700;
+  line-height:70px;
+  width:580px;
+  height:158px; 
+}
+
+.about__text {
+  margin-top: 33px;
+  margin-bottom: 77px;
+  color:#ffffff;
+  font-size:25px;
+  font-family:Lato;
+  font-weight:normal;
+}
+
+.about__button {
+  text-decoration: none;
+}
+
+.about__section-right iframe {
+  width: 896px;
+  height: 516px;
+  border-radius: 16px;
+  border: none;
 }
 /* Конец секции about */
 
