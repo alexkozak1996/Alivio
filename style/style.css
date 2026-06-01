@@ -6,11 +6,14 @@ html {
 
 *, *::before, *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  color:#292929;
 }
 
 .container {
@@ -54,7 +57,6 @@ body {
 
 .header__link {
   text-decoration: none;
-  color:#292929;
   text-align:left;
   font-size:20px;
   font-weight:500;
@@ -123,12 +125,105 @@ body {
 
 /* Основной контент */
 /* Секция works */
+.works {
+  margin: 0 auto;
+  margin-top: 169px;
+  width: 1413px;
+}
+
+.works__title {
+  color:#414141;
+  text-align:left;
+  font-size:24px;
+}
+
+.works__description{
+  display: flex;
+  justify-content: space-between;
+}
+
+.works__description-title {
+  width: 584px;
+  color:#01996d;
+  font-size:50px;
+  font-family:Georgia;
+  font-weight:700;
+}
+
+.works__description-text {
+  width: 671px;
+  color:#414141;
+  font-size:20px;
+  font-weight:500;
+  line-height:40px;
+}
+
+.works__card {
+  margin-top: 52px;
+  margin-bottom: 51px;
+}
+
+.works__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.works__list-item {
+  position: relative;
+  width: 413px;
+}
+
+.works__list-item:nth-child(2) {
+  margin-top: 240px;
+}
+
+.works__card-title {
+  color:rgba(1, 153, 109, 0.2);
+  text-align:left;
+  vertical-align:text-top;
+  font-size:150px;
+  font-family:Georgia;
+  font-weight: normal;
+  line-height:150px;
+}
+
+.works__card-title span {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  color:#000000;
+  font-size:30px;
+  font-family:Georgia;
+  font-weight:700;
+}
+
+.works__card-text {
+  margin-top: 55px;
+  margin-bottom: 50px;
+  color:#414141;;
+  font-size:20px;
+  font-family:Lato;
+  font-weight:500;
+  line-height:30px;
+}
+
+.works__card-image {
+  width: 390px;
+  height: 492px;
+  border-radius: 12px;
+}
 
 /* Конец секции works */
 
 /* Секция about */
 .about {
   background-color: #245852;
+}
+
+.about__container {
+  width: 1506px;
+  margin: 0 auto;
 }
 /* Конец секции about */
 
