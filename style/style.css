@@ -273,6 +273,132 @@ body {
 /* Секция product */
 
 /* Конец секции product */
+.product {
+  padding-top: 120px;
+  padding-bottom: 243px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__left {
+  width: 639px;
+  min-height: 574px;
+  position: relative;
+  margin-left: 61px;
+}
+
+.product__image-wrap {
+  width: 638.5px;
+  height: 573px;
+  background-color:rgba(1, 153, 109, 0.2);
+  border-radius: 18px;
+}
+
+.product__image {
+  margin-left: 97px;
+}
+
+.product__card {
+  position: absolute;
+  width: 296px;
+  min-height: 293px;
+  border-radius: 18px;
+  background-color: #fff;
+  top: 357px;
+  right: 403px;
+}
+
+.product__card-title {
+  position: relative;
+  margin-top: 20px;
+  color:#000000;
+  text-align:center;
+  font-size:14.48997974395752px;
+  font-weight:600;
+}
+
+.product__card-title::before {
+  content: '';
+  position: absolute;
+  width: 110px;
+  height: 1px;
+  background-color: #000000;
+  top: 24px;
+  left: 91px;
+}
+
+.product__card-image {
+  margin: 0 auto;
+  display: block;
+  margin-top: 21px;
+  margin-bottom: 10px;
+  width: 57.5px;
+  height: 57.5px;
+}
+
+.product__card-name {
+  color:#000000;
+  text-align:center;
+  font-size:11.93507194519043px;
+  margin-bottom: 20px;
+}
+
+.product__card-text {
+  margin-bottom: 16px;
+  color:#000000;;
+  text-align: center;
+  font-size:16px;
+  font-family:Georgia;
+  font-weight:700;
+}
+
+.product__card-list {
+  text-align: center;
+}
+
+.product__card-list-item {
+  color:#000000;
+  text-align:left;
+  margin-left: 61px;
+  margin-bottom: 16px;
+  font-size:16px;
+}
+
+.product__card-list-item:last-child() {
+  padding-bottom: 35px;
+}
+
+.product__right {
+  width: 584px;
+  min-height: 413px;
+}
+
+.product__description-title {
+  color:#414141;
+  font-size:25px;
+  font-weight:600;
+  line-height: 39px;
+  margin-bottom: 10px;
+}
+
+.product__description {
+  color:#01996d;
+  font-size:50px;
+  font-family:Georgia;
+  font-weight:700;
+  line-height:79px;
+  margin-bottom: 20px;
+}
+
+.product__description-text {
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+
+.product__description-button {
+  text-decoration: none;
+}
 /* Конец основного контента */
 
 /* Подвал сайта */
