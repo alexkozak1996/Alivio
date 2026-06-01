@@ -20,6 +20,22 @@ body {
   padding: 0 15px;
 }
 
+.button__global {
+  font-size: 20px;
+  height: 65px;
+  border-radius: 4px;
+  padding: 20px 40px;
+  background-color: #01996D;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button__global:hover {
+  color:#292929;
+}
+
+
 /* Шапка сайта */
 .header__menu {
   padding: 30px 0;
@@ -57,7 +73,7 @@ body {
   text-decoration: none;
 }
 
-.button__sign {
+.header__button-sign {
   padding-right: 35px;
   color:#292929;
   text-align:left;
@@ -66,22 +82,12 @@ body {
   line-height:auto;
 }
 
-.button__sign:hover {
+.header__button-sign:hover {
   color: #01996D;
 }
 
-.button__start {
+.header__button-start {
   padding: 13px 50px;
-  color: #fff;
-  text-align:left;
-  font-size:20px;
-  font-weight:500;
-  line-height:auto;
-  background-color: #01996d;
-}
-
-.button__start:hover {
-  color:#292929;
 }
 
 .header__background {
@@ -111,16 +117,25 @@ body {
 }
 
 .header__button {
-  font-size: 20px;
   width: 227px;
-  height: 65px;
-  border-radius: 4px;
-  padding: 20px 40px;
-  background-color: #01996D;
-  color: #fff;
-  border: none;
-  cursor: pointer;
 }
+/* Конец шапки */
+
+/* Основной контент */
+/* Секция works */
+
+/* Конец секции works */
+
+/* Секция about */
+.about {
+  background-color: #245852;
+}
+/* Конец секции about */
+
+/* Секция product */
+
+/* Конец секции product */
+/* Конец основного контента */
 
 /* Подвал сайта */
 .footer {
@@ -152,3 +167,4 @@ body {
 .footer__menu-item:last-child {
   margin-bottom: 0;
 }
+/* Конец подвала */
