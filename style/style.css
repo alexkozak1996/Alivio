@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 1370px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Шапка сайта */
+.header__menu {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__links-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 557px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__link {
+  text-decoration: none;
+  color:#292929;
+  text-align:left;
+  font-size:20px;
+  font-weight:500;
+  line-height:auto;
+}
+
+.header__link:hover {
+  color: #01996D;
+}
+
+.header__buttons {
+  width: 283px;
+}
+
+.header__buttons a {
+  text-decoration: none;
+}
+
+.button__sign {
+  padding-right: 35px;
+  color:#292929;
+  text-align:left;
+  font-size:20px;
+  font-weight:500;
+  line-height:auto;
+}
+
+.button__sign:hover {
+  color: #01996D;
+}
+
+.button__start {
+  padding: 13px 50px;
+  color: #fff;
+  text-align:left;
+  font-size:20px;
+  font-weight:500;
+  line-height:auto;
+  background-color: #01996d;
+}
+
+.button__start:hover {
+  color:#292929;
+}
+
+.header__background {
+  min-height: 895px;
+  background-image: url(../img/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding-top: 175px;
+}
+
+.header__title {
+  font-size: 65px;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  max-width: 440px;
+  color: #01996D;
+}
+
+.header__text {
+  font-size: 20px;
+  max-width: 420px;
+  height: 123px;
+  margin-bottom: 18px;
+  color: #484848;
+}
+
+.header__button {
+  font-size: 20px;
+  width: 227px;
+  height: 65px;
+  border-radius: 4px;
+  padding: 20px 40px;
+  background-color: #01996D;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Подвал сайта */
+.footer {
+  background-color: #245852;
+  padding: 95px 0;
+}
+
+.footer__logo{
+  margin-bottom: 60px;
+}
+
+.footer__menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__menu-item, .footer__menu-list-link {
+  color: #fff;
+  font-style: 25px;
+  text-decoration: none;
+  margin-bottom: 60px;
+}
+
+.footer__menu-list-link:hover {
+  opacity: 0.8;
+}
+
+.footer__menu-item:last-child {
+  margin-bottom: 0;
+}
